@@ -1,1 +1,1 @@
-exports = module.exports = require('./lib/baptiste');
+module.exports = require('./lib/baptiste');
