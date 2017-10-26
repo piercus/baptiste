@@ -1,8 +1,9 @@
-module.exports = function (a) {
+module.exports = function (a, e) {
 	return {
-		a
+		a,
+		e
 	};
 };
 exports = module.exports;
-exports['@require'] = ['a'];
+exports['@require'] = ['a', 'e'];
 exports['@singleton'] = true;

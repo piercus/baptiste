@@ -15,12 +15,18 @@ const mdlb = baptiste.buildModule({
 		path.join(__dirname, 'components2')
 	],
 	components: ['c'],
-	required: ['a'],
+	required: ['a', 'e'],
 	entry: 'c'
 });
 
-mdla.extend(mdlb).inject().then(c => {
-	console.log('here', c);
+mdlb.d = function () {
+	return this.inject({e: 'this is e'});
+};
+
+const merged = mdla.extend(mdlb);
+
+merged.d().then(c => {
 	assert.equal(c.a.foo, 'bar');
+	assert.equal(c.e, 'this is e');
 	console.info('successfully tested');
 });
