@@ -1,0 +1,27 @@
+{
+  "name": "baptiste",
+  "version": "0.0.1",
+  "description": "dependency injection electrolyte-driven module builder",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piercus/baptiste.git"
+  },
+  "keywords": [
+    "electrolyte",
+    "baptiste",
+    "di"
+  ],
+  "author": "Pierre Colle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piercus/baptiste/issues"
+  },
+  "homepage": "https://github.com/piercus/baptiste#readme",
+  "dependencies": {
+    "electrolyte": "*"
+  }
+}
