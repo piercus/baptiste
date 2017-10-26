@@ -4,7 +4,7 @@
   "description": "dependency injection electrolyte-driven module builder",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "xo && node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/piercus/baptiste#readme",
   "dependencies": {
     "electrolyte": "*"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
   }
 }
