@@ -4,7 +4,7 @@
   "description": "dependency injection electrolyte-driven module builder",
   "main": "index.js",
   "scripts": {
-    "test": "xo && node test/test.js"
+    "test": "xo && node test/test.js && node test/extend.js"
   },
   "repository": {
     "type": "git",
