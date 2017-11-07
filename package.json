@@ -1,6 +1,6 @@
 {
   "name": "baptiste",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "dependency injection electrolyte-driven module builder",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,10 @@
     "electrolyte",
     "baptiste",
     "di"
+  ],
+  "files": [
+    "index.js",
+    "lib"
   ],
   "author": "Pierre Colle",
   "license": "MIT",
