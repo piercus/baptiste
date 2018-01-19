@@ -1,6 +1,6 @@
 {
   "name": "baptiste",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "dependency injection electrolyte-driven module builder",
   "main": "index.js",
   "scripts": {
